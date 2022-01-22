@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+  background-color: #eeeee4;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 2rem;
+  gap: 10px;
+  width: 300px;
+  background-color: #fff;
+}
+
+.card__content {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.card__content__heading {
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.card__content__author {
+  padding: 5px 10px;
+}
+.card__content__description {
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card__buttons {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10%;
+}
+
+.card__buttons:hover {
+  background-color: #eeeee4;
+}
+
+.card__content--top {
+  order: -1;
+}
+
+.card--only--buttons {
+  justify-content: flex-start;
+  padding: 5px 10px;
+}
+
+.card--only--icons {
+  justify-content: flex-end;
+}
+
+.icon--end {
+  padding: 5px 15px;
+}
+
+.card__content--horizontal {
+  display: flex;
+}
+
+.card__content__horizontal--heading {
+  margin: 1rem 0;
+}
+
+.card__header__over__image {
+  height: 330px;
+}
+.card__image--header {
+  margin-bottom: -50px;
+}
+.card__content__header--above {
+  position: relative;
+  top: -40px;
+  color: #fff;
+}
+
+.card__horizontal {
+  height: 170px;
+}
